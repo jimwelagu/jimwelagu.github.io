@@ -25,7 +25,7 @@ description: Software development portfolio
 navbar-links:
   About Me: "aboutme"
   Defense Against The Dark Arts:
-    - Malware: "\_posts\2018-01-13-dada-week-1"
+    - Malware: "/_posts/2018-01-13-dada-week-1"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
