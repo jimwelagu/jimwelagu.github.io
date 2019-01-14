@@ -24,7 +24,7 @@ description: Software development portfolio
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Defense Against The Dark Arts
+  # Defense Against The Dark Arts
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
