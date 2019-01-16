@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Aspiring Full stack developer
 ---
 
 My name is Jimwel, and I am an aspiring full stack developer. Well, you know what what they say...
