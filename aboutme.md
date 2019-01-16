@@ -24,7 +24,7 @@ Previous companies I worked at:
   </span>
   
   <span style="margin:30px" align="center">
-  <img src="https://www.hawaiiusafcu.com/App_Themes/HawaiiUSA/img/logo.png" alt="mentor" width="30%" height=30%">
+  <img src="https://www.hawaiiusafcu.com/App_Themes/HawaiiUSA/img/logo.png" alt="mentor" width="30%" height="30%">
   </span>
 
 </div>
