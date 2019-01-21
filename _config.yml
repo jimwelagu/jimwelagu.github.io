@@ -26,6 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Defense Against The Dark Arts:
     - Malware: "2018-01-13-dada-week-1"
+    - Advanced Forensics: "2018-01-20-dada-week-2"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
