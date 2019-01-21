@@ -4,7 +4,7 @@ title: About me
 subtitle: Aspiring Full stack developer
 ---
 
-My name is Jimwel, and I am an aspiring full stack developer. Well, you know what what they say...
+My name is Jimwel, and I am an aspiring full stack developer. Well, you know what they say...
 >Jack of all trades, master of none,
 >though oftentimes better than master of one.
 
