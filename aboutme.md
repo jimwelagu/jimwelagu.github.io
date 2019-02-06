@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Aspiring Full stack developer
+subtitle: Aspiring Full Stack Developer
 ---
 
 My name is Jimwel, and I am an aspiring full stack developer. Well, you know what they say...
@@ -16,15 +16,21 @@ Previous companies I worked at:
 <div>
   
   <span style="margin:30px" align="center">
-  <img src="https://mgc-images.imgix.net/home/MentorASBLogoBlackHires-AFB2B649.png" alt="mentor" width="20%" height="20%">
+  <a href="https://www.mentor.com/">
+    <img src="https://mgc-images.imgix.net/home/MentorASBLogoBlackHires-AFB2B649.png" alt="mentor" width="20%" height="20%">
+  </a>
   </span>
    
   <span style="margin:30px" align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Seal_of_the_State_of_Hawaii.svg/2000px- Seal_of_the_State_of_Hawaii.svg.png" alt="mentor" width="8%" height="8%">
+  <a href="http://ets.hawaii.gov/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Seal_of_the_State_of_Hawaii.svg/2000px- Seal_of_the_State_of_Hawaii.svg.png" alt="mentor" width="10%" height="10%">
+  </a>
   </span>
   
   <span style="margin:30px" align="center">
-  <img src="https://www.hawaiiusafcu.com/App_Themes/HawaiiUSA/img/logo.png" alt="mentor" width="30%" height="30%">
+  <a href="https://www.hawaiiusafcu.com/">
+    <img src="https://www.hawaiiusafcu.com/App_Themes/HawaiiUSA/img/logo.png" alt="mentor" width="30%" height="30%">
+  </a>
   </span>
 
 </div>
