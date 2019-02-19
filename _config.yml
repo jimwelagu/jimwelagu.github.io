@@ -30,6 +30,7 @@ navbar-links:
     - Malware Defense: "2019-01-28-dada-week-3"
     - Software Vulnerabilities and Common Exploits: "2019-02-03-dada-week-4"
     - Windows Internals: "2019-02-12-dada-week-5"
+    - Network Security: "2019-02-19-dada-week-6.md"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
