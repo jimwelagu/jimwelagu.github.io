@@ -32,6 +32,7 @@ In this post, I will walkthrough some challenges from [Hack The Box](https://www
 8. Let's run the debugger on the executable.
 
 9. As it hits the breakpoint, the values in the registers changed. One of the strings `hello world!` is the password I entered, and another register contains the string `fortran!`. That seems interesting.
+
 ![img](https://drive.google.com/uc?export=view&id=1cZJULbuqYI5bQFh4CqBm_huotwhmm0CF)
 
 10. Click `Step into` to go to the next instruction.
