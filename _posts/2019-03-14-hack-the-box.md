@@ -125,3 +125,36 @@ keys = [0x70, 0x61, 0x73, 0x73, 0x77, 0x6f, 0x72, 0x64, 0x21, 0x21]
 15. The first 10 characters in `chars` is `udvvrjwa$$`.
 
 16. Thus, the flag will be `HTB:{anaconda:udvvrjwa$$}`
+
+# fs0ciety 
+### Tools that I used:
+- Free ZIP Password Recover (Windows 10)
+- Base64 Decoder
+- Binary to ASCII Converter
+
+### Steps:
+1. The hint for this challenge says 
+> We believe that there is an SSH Password inside password protected 'ZIP' folder. Can you crack the 'ZIP' folder and get the SSH password? 
+
+which means we must crack the password of the `fsociety.zip` folder
+
+2. I used a program called 'Free ZIP Password Recover' to crack the zip folder. I did a brute force attack on the zip folder which took VERY long but eventually gave me the correct password. This may have been done faster if I could do a dictionary attack on it. The password is `justdoit`.
+
+3. Use the password `justdoit` to unlock the `sshcreds_datacenter.txt` file.
+
+4. You will notice a very long string. This is the SSH password. However, if you input this into hack the box, it is not correct. This maybe because it is encoded.
+```
+MDExMDEwMDEgMDExMDAxMTAgMDEwMTExMTEgMDExMTEwMDEgMDAxMTAwMDAgMDExMTAxMDEgMDEwMTExMTEgMDExMDAwMTEgMDEwMDAwMDAgMDExMDExMTAgMDEwMTExMTEgMDAxMDAxMDAgMDExMDExMDEgMDAxMTAwMTEgMDExMDExMDAgMDExMDExMDAgMDEwMTExMTEgMDExMTAxMTEgMDExMDEwMDAgMDEwMDAwMDAgMDExMTAxMDAgMDEwMTExMTEgMDExMTAxMDAgMDExMDEwMDAgMDAxMTAwMTEgMDEwMTExMTEgMDExMTAwMTAgMDAxMTAwMDAgMDExMDAwMTEgMDExMDEwMTEgMDEwMTExMTEgMDExMDEwMDEgMDExMTAwMTEgMDEwMTExMTEgMDExMDAwMTEgMDAxMTAwMDAgMDAxMTAwMDAgMDExMDEwMTEgMDExMDEwMDEgMDExMDExMTAgMDExMDAxMTE=
+```
+
+5. One reason why I think that this string is encoded is because this is the SSH password in which another system needs to read. The purpose of encoding a string is to transform data so another system will be able to read it. In this case, it will be the system the user is trying to SSH into, which is Blume ctOS. Another reason, is that if this was an encrypted text, we have no way to decrypt it without a key, unless we apply a brute force attack.
+
+6. The string also looks like it is encoded in base64 based on it's format. Let's try decode this using a base64 decoder. The result should be an output in binary.
+```
+01101001 01100110 01011111 01111001 00110000 01110101 01011111 01100011 01000000 01101110 01011111 00100100 01101101 00110011 01101100 01101100 01011111 01110111 01101000 01000000 01110100 01011111 01110100 01101000 00110011 01011111 01110010 00110000 01100011 01101011 01011111 01101001 01110011 01011111 01100011 00110000 00110000 01101011 01101001 01101110 01100111
+```
+
+7. Let's see what this binary means. We can do this by converting the binary in to ASCII. The result should look like
+`if_y0u_c@n_$m3ll_wh@t_th3_r0ck_is_c00king`
+
+8. We can apply the flag `HTB{if_y0u_c@n_$m3ll_wh@t_th3_r0ck_is_c00king}`
