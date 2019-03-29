@@ -4,14 +4,15 @@ title: About me
 subtitle: Aspiring Full Stack Developer
 ---
 
-My name is Jimwel, and I am an aspiring full stack developer. Well, you know what they say...
->Jack of all trades, master of none,
->though oftentimes better than master of one.
+My name is Jimwel, and I am an aspiring full stack developer.
 
 I'm currently pursuing a Bachelors of Science in Computer Science at Oregon State University in Corvallis, Oregon.
-Before moving to Oregon, I grew up on a small island in the middle of the Pacific Ocean that I called home.
+Before moving to Oregon, I grew up on a small island in the middle of the Pacific Ocean called Oahu.
 
-Previous companies I worked at:
+During my four years studying computer science at Oregon State, I gained technical knowledge and experience in various areas
+of computer science including Cyber Security, Mobile Development, and Web Development. Furthermore, I was a teaching assistant for the Introduction to Computer Science class. And Recently, I was fortunate enough to complete a software engineering internship at Mentor Graphics. 
+
+Here are some companies I worked at in the past:
 
 <div>
   
